@@ -26,3 +26,24 @@ Saves data for further investigation (graphs documenting evolution of population
 
 ### Simulation
 Reads and analyzes test file.
+
+#Test Files
+
+```
+#Test number
+
+5 # Clock
+
+1 # m with number of cells = 2*m+1
+12.
+900   # cell energy levels (0<energy<9, with '.' being sterile)
+831
+
+1 #number of preys
+
+0 0 1 5 # (x, y, alive, energy) 
+
+1 #number of predators
+
+0 0 5 # (x,y,energy)
+```
