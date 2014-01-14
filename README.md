@@ -5,24 +5,24 @@ A prey-predator project written in C(++) with a GUI user interface.
 
 #Modules
 
-###action
+### Action
 Decision making based on a variety of internal and environmental factors :
 * proximity to food
 * energy levels
 * number of entities on a given cell
 * location
 
-###error
+### Error
 Verification of test files.
 
-###graphic
+### Graphic
 Rendering of the GUI interface.
 
-###movement	
+### Movement	
 Returns next coordinates based on call from action module.
 
-###save_data
+### Save_data
 Saves data for further investigation (graphs documenting evolution of populations over time).
 
-###simulation
-Main.
+### Simulation
+Reads and analyzes test file.
